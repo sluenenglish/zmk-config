@@ -99,11 +99,11 @@
 
         space_fn {
             bindings = <
-&trans  &trans        &trans     &trans             &trans         &trans                       &trans  &trans         &trans     &trans      &trans    &trans
-&trans  &kp QUESTION  &kp MINUS  &kp EQUAL          &kp LS(EQUAL)  &trans                       &trans  &trans         &trans     &kp TILDE   &kp PIPE  &trans
-&trans  &kp AT_SIGN   &trans     &kp DOUBLE_QUOTES  &kp APOS       &kp GRAVE                    &trans  &kp BACKSPACE  &kp ENTER  &kp DELETE  &trans    &trans
-&trans  &trans        &trans     &trans             &trans         &trans     &trans    &trans  &trans  &trans         &trans     &trans      &trans    &trans
-                      &trans     &trans             &trans         &trans     &trans    &trans  &trans  &trans         &trans     &trans
+&trans  &trans         &trans     &trans             &trans         &trans                       &trans        &trans         &trans     &trans         &trans        &trans
+&trans  &kp LS(QMARK)  &kp MINUS  &kp EQUAL          &kp LS(EQUAL)  &trans                       &trans        &kp LS(UNDER)  &trans     &kp LS(TILDE)  &kp LS(PIPE)  &trans
+&trans  &kp LS(AT)     &trans     &kp DOUBLE_QUOTES  &kp APOS       &kp GRAVE                    &kp LC(BSPC)  &kp BACKSPACE  &kp ENTER  &kp DELETE     &trans        &trans
+&trans  &trans         &trans     &trans             &trans         &trans     &trans    &trans  &trans        &trans         &trans     &trans         &trans        &trans
+                       &trans     &trans             &trans         &trans     &trans    &trans  &trans        &trans         &trans     &trans
             >;
 
             label = "space_fn";
